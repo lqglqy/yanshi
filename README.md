@@ -19,6 +19,17 @@ From <https://en.wikipedia.org/wiki/Automaton>:
 In ancient China, a curious account of automata is found in the Lie Zi text (列子), written in the 3rd century BC. Within it there is a description of a much earlier encounter between King Mu of Zhou (周穆王, 1023-957 BC) and a mechanical engineer known as Yan Shi (偃师), an 'artificer'.
 </blockquote>
 
+## Dependencies on Centos
+
+```
+yum install bison
+yum install libicu-devel
+yum install flex
+yum install readline-devel
+yum install libasan
+yum install libubsan
+```
+
 ## Build
 
 * Debug: `make`
